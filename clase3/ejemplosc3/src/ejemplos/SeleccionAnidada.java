@@ -23,7 +23,7 @@ public class SeleccionAnidada {
         System.out.println("ingrese calificacion");
         int calificacion = entrada.nextInt();
 
-        if (calificacion >= 90) {
+        if (calificacion >= 90 && calificacion <=100) {
             System.out.printf("Usted está aprobado (excelente) con %d\n", calificacion);
         } else {
             if (calificacion < 90 && calificacion >= 80) {
